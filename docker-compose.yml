@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  app:
+    image: peeliima/ubuntu-golang:latest
+    container_name: peeliima-ubuntu-go
+    command: bash -c ". ~/.bashrc && go build && ./src && tail -f /dev/null"
+    ports:
+      - 8010:80
