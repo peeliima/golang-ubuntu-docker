@@ -1,6 +1,8 @@
 # golang-ubuntu-docker
 Dockerfile de uma imagem ubuntu que executa a linguagem Golang
 
+Link do Docker Hub: https://hub.docker.com/repository/docker/peeliima/ubuntu-golang/general
+
 #### Problemas
 
 A imagem builada passas pela seguinte etapa: 
