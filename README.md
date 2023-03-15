@@ -5,7 +5,7 @@ Link do Docker Hub: https://hub.docker.com/repository/docker/peeliima/ubuntu-gol
 
 #### Problemas
 
-A imagem builada passas pela seguinte etapa: 
+O building da imagem passa pelas seguintes etapas: 
 
 RUN echo $PATH
 RUN echo "export GOPATH=$HOME/go" >> ~/.bashrc
